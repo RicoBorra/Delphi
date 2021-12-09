@@ -2,8 +2,6 @@ version: "3.6"
 services:
   delphi:
     build: .
-    command: python secret.py
+    command: gunicorn -w 4 --bind :5000 secret:app
     ports:
-      - "5000:5000"
-    volumes:
-      - .:/delphi
+      - "80:5000"
