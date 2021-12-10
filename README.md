@@ -10,3 +10,5 @@ $ docker compose up
  and connect to localhost on a browser, alternatively host it on your machine and have friends play it without the sources available!
 ## Spoilers ahead!
 The main purpose of this challenge (aside from having fun) is to accustom the player with byte-by-byte bruteforcing, akin to the "oracle" attacks on block ciphers.
+## Flag
+ptm{l3t5_g0_t0_gr33c3}
